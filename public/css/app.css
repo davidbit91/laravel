@@ -1,0 +1,412 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+body {
+    height: 100%;
+    background-color: #ffd7f5;
+    color: #f67cc2;
+    font-family: "Fredoka One", serif;
+}
+/* ---------------- NAVBAR ----------------- */
+.navbar {
+    background: #621e81;
+    color: #f67cc2;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.searchNav {
+    background: #621e81;
+    color: #f67cc2;
+}
+
+#profileNav a {
+    color: #fff;
+}
+#navbarNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav a {
+    color: #f67cc2;
+    margin-left: 20px;
+}
+
+.menuNav {
+    background: #621e81;
+    color: #f67cc2;
+}
+
+.search {
+    margin-left: 16%;
+    width: 740px;
+}
+.search input {
+    background: none;
+    border: 0;
+}
+
+.firstNav {
+    border-bottom: 1px solid #f67cc2;
+}
+
+/* ---------------- HOME ----------------- */
+
+.mainProducts {
+    margin-top: 15px;
+}
+
+.product {
+    margin-bottom: 15px;
+    position: relative;
+}
+.category {
+    position: absolute;
+    width: fit-content;
+    padding: 7px;
+    top: 13px;
+    height: 30px;
+    background-color: lightblue;
+    color: #fff;
+    z-index: 2;
+    border-radius: 0 15px 15px 0;
+}
+.productPrice {
+    position: absolute;
+    width: fit-content;
+    padding: 7px;
+    top: 50px;
+    height: 30px;
+    background-color: #f67cc2;
+    color: #fff;
+    z-index: 2;
+    border-radius: 0 15px 15px 0;
+}
+
+.ad {
+    border: 1px solid #621e81;
+    width: 517px;
+    height: 300px;
+    margin-left: 15px;
+}
+
+.filter {
+    position: fixed;
+    z-index: 2;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    right: 17vw;
+    top: 80vh;
+}
+.filter i {
+    margin-top: 15px;
+    font-size: 24px;
+}
+.modal-body h5 {
+    margin-bottom: 10px;
+    color: #621e81;
+    font-weight: bold;
+}
+.modal-body input {
+    width: 100%;
+}
+.sizes {
+    border-color: #f67cc2;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #f67cc2;
+    color: #621e81;
+}
+.sizes:hover {
+    color: black;
+    border-color: black;
+}
+.modalButtons {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.modalButtons button {
+    width: 150px;
+}
+.modalButtons button:nth-child(1) {
+    background-color: #f67cc2;
+    color: #fff;
+    margin-right: 10%;
+}
+.modalButtons button:nth-child(2) {
+    background-color: #621e81;
+    color: #fff;
+}
+/* ---------------- CART ----------------- */
+.products {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+.products ul {
+    height: 100px;
+}
+.products ul li {
+    padding: 3px;
+    border: 0;
+    background-color: #ffd7f5;
+    color: #f67cc2;
+}
+.products ul li:first-child {
+    color: #621e81 !important;
+}
+.products button {
+    width: 100px;
+    height: 30px;
+    align-self: flex-end;
+    margin-left: -25%;
+    border: 0;
+    background: none;
+    color: lightblue;
+    font-weight: bold;
+}
+
+.products:nth-child(1) {
+    border-bottom: 2px solid black;
+}
+.totalWeight {
+    margin-left: 30px;
+    width: 300px;
+}
+.totalWeight pre {
+    width: 305px;
+    padding: 10px;
+    border: 3px solid #621e81;
+    border-radius: 10px;
+    color: #621e81;
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+.form-group input {
+    width: 300px;
+    height: 50px;
+}
+.form-group button {
+    width: 150px;
+    margin-left: 15px;
+    border-radius: 10px;
+    box-shadow: black;
+    background-color: #621e81;
+    color: #fff;
+    font-weight: bold;
+}
+.price {
+    margin: 25px 0 25px 0;
+    color: #621e81;
+    font-weight: bold;
+}
+.totalPrice {
+    justify-content: center;
+    border: 2px solid #621e81;
+    border-radius: 10px;
+    width: 175px;
+    height: 35px;
+    text-align: center;
+}
+.shippingCheckout {
+    margin-left: 15px;
+}
+textarea {
+    border-radius: 10px;
+    padding: 15px;
+    resize: none;
+}
+.refundsCheck {
+    width: 488px;
+}
+
+.refundsCheck input {
+    margin-left: 35px;
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.refundsCheck p {
+    display: inline-block;
+    width: auto;
+    margin-left: 15px;
+    color: #621e81;
+}
+
+.refundsCheck button {
+    width: 200px;
+    height: 45px !important;
+    margin-left: 35px;
+    margin-top: 55px;
+}
+.refundsCheck button:nth-child(3) {
+    background-color: #f67cc2;
+}
+.refundsCheck button:nth-child(4) {
+    background-color: #621e81;
+}
+
+/* ---------------- DETAILS ---------------- */
+.photos{
+    margin-top: 10px;
+}
+.photos img{
+    width:90px;
+    margin-right: 13px;
+}
+.infoProduct{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width:350px;
+    color:#621e81;
+    font-weight: bold;
+}
+.infoProduct ul{
+    list-style-type: disc;
+}
+.productInfo{
+    margin-top: 15px;
+}
+.productInfo h3{
+    width: 100%;
+    border-bottom: 2px solid #621e81;
+}
+.ref{
+    color: aqua;
+}
+.ref p{
+    margin-bottom: 5px;
+}
+.sizeChart p a{
+    border:0;
+    background: none;
+    color: #777;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.sizeChart p a:hover{
+    border:0;
+    background: none;
+    color:#777;
+}
+.sizeChartInfo{
+    background-color: #ffd7f9;
+    border: 1px solid #621e81;
+}
+
+.sizeChartInfo p{
+    color:#621e81;
+    font-weight: bold;
+}
+.tableSizeChart tbody tr th{
+    color:#f67cc2;
+    font-weight: normal;
+}
+.tableSizeChart tbody tr td{
+    color:#621e81;
+    font-weight: bold;
+}
+
+.buttonsDetails{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.buttonsDetails button{
+    width:200px;
+    margin-right: 15px;
+}
+.buttonsDetails button:nth-child(1){
+    background-color: #f67cc2;
+}
+.buttonsDetails button:nth-child(2){
+    background-color: #621e81;
+}
+
+.RRSS p{
+    text-align: right;
+    border-bottom: 1px solid #621e81;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.RRSSIcons{
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    color:#fff;
+}
+.RRSSIcons:nth-child(1){
+    background-color: blue;
+}
+.RRSSIcons:nth-child(2){
+    background-color: lightblue;
+}
+.RRSSIcons:nth-child(3){
+    background-color: green;
+}
+.infoPayment{
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 15px;
+}
+.info{
+    width:250px;
+}
+.info i{
+    font-size: 48px;
+    color:blue;
+    margin-left: 40%;
+}
+.info p:nth-child(2){
+    color:blue;
+    text-align: center;
+}
+.info p:nth-child(3){
+  text-align: center;
+}
+
+.otherProducts h3{
+    width: 100%;
+    text-align: center;
+    color:#621e81;
+}
+
+.productMayLike .product{
+    margin-right: 30px;
+}
+/* ---------------- FOOTER ----------------- */
+
+footer {
+    background-color: #621e81;
+    color: #f67cc2;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.androidIosLogo {
+    height: 70px;
+}
+
+.androidIosLogo img {
+    width: 150px;
+    height: 50px;
+}

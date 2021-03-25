@@ -1,0 +1,28 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+body {
+    height: 100%;
+    background-color: #ffd7f5;
+    color: #f67cc2;
+}
+
+.navbar {
+    background: #621e81;
+    color: #f67cc2;
+}
+
+.searchNav {
+    background: #621e81;
+    color: #f67cc2;
+}
+
+.menuNav {
+    background: #621e81;
+    color: #f67cc2;
+}
